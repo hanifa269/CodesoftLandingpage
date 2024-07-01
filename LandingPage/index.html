@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <nav>
+        <div class="heading">Landing page</div>
+        <span class="sideMenuButton" 
+            onclick="openNavbar()">
+            &#9776
+        </span>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Side navigation bar for 
+        responsive website -->
+    <div class="sideNavigationBar" 
+        id="sideNavigationBar">
+        <a href="#" class="closeButton" 
+            onclick="closeNavbar()">
+            &#x274C
+        </a>
+        <a href="#">Home</a>
+        <a href="#">Pages</a>
+        <a href="#">Blogs</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <a href="#">Sign Up</a>
+    </div>
+
+    <!-- Content -->
+    <div class="line" id="Home">
+        <div class="side1">
+            <h1>Creative Digital Agencyitive Digital Agency</h1>
+            <button>
+                <a href=
+"https://www.enginner.org/ ">
+                    Explore More
+                </a>
+            </button>
+        </div>
+        <div class="side2">
+            <img src="eng.jpg" 
+                width="600">
+        </div>
+    </div>
+
+    <section class="about" id="My Projects">
+        <div class="content">
+            <div class="title">
+                <span>About us</span>
+            </div>
+        </div>
+        <p>
+            Founded in 2005, Innovate Engineering Solutions began with a vision to revolutionize the engineering industry by providing cutting-edge, sustainable solutions. Our team started as a small group of passionate engineers and has since expanded into a full-service engineering firm with clients across multiple sectors. 
+            At Innovate Engineering Solutions, our mission is to deliver exceptional engineering services that drive progress and improve quality of life. We strive to create sustainable, efficient, and reliable solutions for our clients. Our core values include:
+
+Innovation: We embrace new technologies and methodologies to stay at the forefront of the engineering industry.
+Integrity: We uphold the highest ethical standards in all our projects and relationships.
+Collaboration: We believe in the power of teamwork and work closely with clients to achieve their goals.
+        </p>
+    </div>
+    <section class="about" id="My Projects">
+        <div class="content">
+            <div class="title">
+                <span>Courses</span>
+            </div>
+        </div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            DSA
+                        </a>
+                    </div>
+                    <p>
+                        The term DSA stands for Data 
+                        Structures and Algorithms. As 
+                        the name itself suggests, it 
+                        is a combination of two 
+                        separate yet interrelated 
+                        topics.
+                    </p>
+                    <img src="eng1.jpg" 
+                width="200">
+                </div>
+                <div class="box">
+
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            HTML
+                        </a>
+                    </div>
+                    <p>
+                        HTML stands for HyperText 
+                        Markup Language. It is used 
+                        to design web pages using 
+                        the markup language.
+                    </p>
+                    <img src="eng2.jpg" 
+                width="200">
+                </div>
+
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            Javascript
+                        </a>
+                    </div>
+
+                    <p>
+                        JavaScript (JS) is the most 
+                        popular lightweight, interpreted 
+                        compiled programming language.
+                    </p>
+                    <img src="eng3.jpg" 
+                width="200">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title"><span>Sign Up</span></div>
+            <div class="contactMenu">
+                <div class="input1">
+                    <div class="label1">Your Name</div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Name here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Email</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Email here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Password</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Password here">
+                    </div>
+                    <div class="button">
+                        <button>Sign Up</button>
+                    </div>
+                </div>
+                <div class="input3">
+                    <div class="rightside1">
+                        <div class="title1">
+                            <span>
+                                Contact Us
+                            </span>
+                        </div>
+                        <div class="content1">
+                            123 Main Street,Cityville,State, Zip Code, Sector-136, 
+                            Noida, Uttar Pradesh - 201305
+                        </div>
+                        <div class="title1">
+                            <span>More Information</span>
+                        </div>
+                        <div class="content1">
+                            Welcome to our platform dedicated to providing top-notch education. Whether you're looking to expand your knowledge, share your expertise, or secure your dream job, we're here to support you. With millions of articles, live and online courses, tutorials, and more, there's plenty to help you achieve your goals. Thank you for choosing and supporting us!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer section -->
+   
+    <footer>
+        <div class="footer">
+            <span>
+                created by HANIFA
+                   
+                    
+                </a>
+            </span>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
